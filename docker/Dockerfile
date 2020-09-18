@@ -1,4 +1,4 @@
-ARG FROM=debian:buster-slim
+ARG FROM=rocker/geospatial
 FROM ${FROM}
 
 ARG DEBIAN_FRONTEND=noninteractive
