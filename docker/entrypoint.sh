@@ -1,4 +1,5 @@
 #!/bin/bash
+GITHUB_ACCESS_TOKEN=$1
 
 if [[ "$@" == "bash" ]]; then
     exec $@
@@ -72,4 +73,5 @@ else
         --unattended
 fi
 
-exec "$@"
+#exec "$@"
+

@@ -1,4 +1,4 @@
-APP_NAME="tcardonne/github-runner"
+APP_NAME="rocker/safe-runner"
 
 # HELP
 # This will output the help for each task
